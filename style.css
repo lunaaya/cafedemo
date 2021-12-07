@@ -1,0 +1,480 @@
+body header {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body header .container {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header .container .header_logo_area .header_link {
+  display: block;
+}
+body header .container .header_logo_area .header_link img {
+  width: 150px;
+  height: 120px;
+  vertical-align: bottom;
+}
+body header .container .header_nav_area {
+  margin-left: auto;
+}
+body header .container .header_nav_area .header_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header .container .header_nav_area .header_list li {
+  letter-spacing: 1px;
+  padding: 0 15px;
+  font-size: 1vw;
+  list-style: none;
+}
+body header .container .header_nav_area .header_list li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Playfair Display", serif !important;
+}
+body header .container .header_nav_area .header_list li a:hover {
+  text-decoration: underline;
+}
+body main .top_photo_area {
+  background: url(./topPhoto/topphoto01.jpg) no-repeat bottom center;
+  background-size: cover;
+}
+body main .top_photo_area .container {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body main .top_photo_area .scroll_area {
+  padding-bottom: 10px;
+  text-align: center;
+}
+body main .top_photo_area .scroll_area .scroll_text {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif !important;
+}
+body main .top_photo_area .scroll_area .scroll_text .fas {
+  padding-left: 5px;
+  font-size: 16px;
+}
+body main .news_all_area .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+body main .news_all_area .container .ttl_area {
+  margin-top: 150px;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  top: 50px;
+}
+body main .news_all_area .container .ttl_area .ttl {
+  font-size: 44px;
+  letter-spacing: 10px;
+  font-weight: 400;
+  padding-bottom: 80px;
+  font-family: "Playfair Display", serif !important;
+}
+body main .news_all_area .container .active {
+  opacity: 1;
+  top: 0;
+}
+body main .news_all_area .container .news_content_area {
+  max-width: 550px;
+  margin: 0 auto;
+}
+body main .news_all_area .container .news_content_area .news_list {
+  font-family: "Playfair Display", serif !important;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  top: 50px;
+}
+body main .news_all_area .container .news_content_area .news_list dt {
+  text-align: left;
+  padding: 10px 0;
+  border-top: solid 1px #333;
+}
+body main .news_all_area .container .news_content_area .news_list dd {
+  padding: 5px 0 10px 0;
+  text-align: left;
+}
+body main .news_all_area .container .news_content_area .news_list dd:last-child {
+  border-bottom: solid 1px #333;
+}
+body main .news_all_area .container .news_content_area .active {
+  opacity: 1;
+  top: 0;
+}
+body main .news_all_area .container .news_content_area .news_btn_area {
+  display: inline-block;
+  border: solid 1px #333;
+  background: #333;
+  margin-top: 20px;
+}
+body main .news_all_area .container .news_content_area .news_btn_area a {
+  display: inline-block;
+  padding: 7px 15px;
+  text-decoration: none;
+  font-family: "Playfair Display", serif !important;
+  font: 500 20px/1em;
+  color: white;
+}
+body main .news_all_area .container .news_content_area .news_btn_area a:hover {
+  background-color: white;
+  color: #333;
+}
+body main .center_photo_area {
+  margin-top: 150px;
+  width: 100%;
+  background: url(./concept/center-photo.jpg) no-repeat 100% 100% fixed;
+  background-size: cover;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body main .center_photo_area p {
+  font-size: 26px;
+  font-family: "Playfair Display", serif !important;
+  color: white;
+  text-shadow: 1px 2px 3px #333;
+}
+body main .menu_all_area .container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+body main .menu_all_area .container .ttl_area {
+  text-align: center;
+  margin-top: 150px;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  top: 50px;
+}
+body main .menu_all_area .container .ttl_area .ttl {
+  font-size: 44px;
+  letter-spacing: 10px;
+  font-weight: 400;
+  padding-bottom: 80px;
+  font-family: "Playfair Display", serif !important;
+}
+body main .menu_all_area .container .active {
+  opacity: 1;
+  top: 0;
+}
+body main .menu_all_area .container .ttl_photo {
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  top: 50px;
+}
+body main .menu_all_area .container .ttl_photo .ttl_02 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), color-stop(70%, #ffdead));
+  background: linear-gradient(transparent 80%, #ffdead 70%);
+  display: inline-block;
+  font-family: "Playfair Display", serif !important;
+  font-size: 16px;
+  letter-spacing: 10px;
+  opacity: 0.5;
+  padding-top: 40px;
+}
+body main .menu_all_area .container .ttl_photo .ttl_02::first-letter {
+  font-size: 34px;
+  opacity: 0.9;
+}
+body main .menu_all_area .container .active {
+  opacity: 1;
+  top: 0;
+}
+body main .menu_all_area .container .menu_box_area {
+  width: 100%;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+body main .menu_all_area .container .menu_box_area .menu_box {
+  width: 25%;
+  padding: 0 10px;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  top: 50px;
+}
+body main .menu_all_area .container .menu_box_area .menu_box a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+body main .menu_all_area .container .menu_box_area .menu_box a img {
+  width: 100%;
+  height: auto;
+}
+body main .menu_all_area .container .menu_box_area .menu_box h2 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 28px;
+  letter-spacing: 7px;
+  padding: 10px 0;
+}
+body main .menu_all_area .container .menu_box_area .menu_box .text {
+  font-family: "Playfair Display", serif !important;
+  padding: 5px 0;
+}
+body main .menu_all_area .container .menu_box_area .menu_box .price {
+  font-family: "Playfair Display", serif !important;
+  font-size: 22px;
+  padding: 10px 0;
+}
+body main .menu_all_area .container .menu_box_area .menu_box .price span {
+  font-size: 18px;
+}
+body main .menu_all_area .container .menu_box_area .active {
+  opacity: 1;
+  top: 0;
+}
+body main .menu_all_area .menu_coffee_area {
+  width: 100%;
+  height: auto;
+  background: url(./menu/bg.jpg) no-repeat 100% 100%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 170px;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  top: 50px;
+}
+body main .menu_all_area .menu_coffee_area .coffee_photo_area {
+  width: 50%;
+  height: auto;
+}
+body main .menu_all_area .menu_coffee_area .coffee_photo_area img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+body main .menu_all_area .menu_coffee_area .coffee_text_area {
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+body main .menu_all_area .menu_coffee_area .coffee_text_area h2 {
+  padding: 8% 0;
+  font-family: "Playfair Display", serif !important;
+  font-size: 3vw;
+  letter-spacing: 7px;
+}
+body main .menu_all_area .menu_coffee_area .coffee_text_area .coffee_text {
+  letter-spacing: 5px;
+  font-size: 1vw;
+  font-family: "Playfair Display", serif !important;
+}
+body main .menu_all_area .menu_coffee_area .coffee_text_area .coffee_price {
+  font-family: "Playfair Display", serif !important;
+  padding: 8% 0;
+  font-size: 1.5vw;
+}
+body main .menu_all_area .menu_coffee_area .coffee_text_area .coffee_price span {
+  font-family: "Playfair Display", serif !important;
+  font-size: 1.5vw;
+}
+body main .menu_all_area .active {
+  opacity: 1;
+  top: 0;
+}
+body main .point_all_area .container {
+  height: 800px;
+}
+body main .point_all_area .container .ttl_area {
+  text-align: center;
+  margin-top: 150px;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  top: 50px;
+}
+body main .point_all_area .container .ttl_area .ttl {
+  font-size: 44px;
+  letter-spacing: 10px;
+  font-weight: 400;
+  padding-bottom: 80px;
+  font-family: "Playfair Display", serif !important;
+}
+body main .point_all_area .container .active {
+  opacity: 1;
+  top: 0;
+}
+body main .point_all_area .container .point_rest_area {
+  max-width: 1240px;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  top: 50px;
+}
+body main .point_all_area .container .point_rest_area .point_photo_area {
+  width: 60%;
+  margin: 0 auto;
+}
+body main .point_all_area .container .point_rest_area .point_photo_area img {
+  width: 100%;
+}
+body main .point_all_area .container .point_rest_area .point_text_area {
+  width: 35%;
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  background-color: white;
+}
+body main .point_all_area .container .point_rest_area .point_text_area p {
+  font-family: "Playfair Display", serif !important;
+  font-size: 1vw;
+  letter-spacing: 3px;
+}
+body main .point_all_area .container .active {
+  opacity: 1;
+  top: 0;
+}
+body main .access_all_area {
+  background: url(./menu/bg.jpg) no-repeat 100% 100%;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+body main .access_all_area .container .ttl_area {
+  text-align: center;
+  padding-top: 50px;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  top: 50px;
+}
+body main .access_all_area .container .ttl_area .ttl {
+  font-size: 44px;
+  letter-spacing: 10px;
+  font-weight: 400;
+  padding-bottom: 80px;
+  font-family: "Playfair Display", serif !important;
+}
+body main .access_all_area .container .active {
+  opacity: 1;
+  top: 0;
+}
+body main .access_all_area .container .access_container_area {
+  width: 75%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  top: 50px;
+}
+body main .access_all_area .container .access_container_area .access_map_area {
+  width: 35%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+body main .access_all_area .container .access_container_area .access_map_area iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body main .access_all_area .container .access_container_area .access_text_area {
+  width: 50%;
+  margin: 0 auto;
+}
+body main .access_all_area .container .access_container_area .access_text_area img {
+  width: 300px;
+  height: 250px;
+  vertical-align: bottom;
+}
+body main .access_all_area .container .access_container_area .access_text_area .access_list_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 1.3vw;
+  font-family: "Playfair Display", serif !important;
+}
+body main .access_all_area .container .access_container_area .access_text_area .access_list_area dt {
+  width: 30%;
+  padding: 2% 0;
+}
+body main .access_all_area .container .access_container_area .access_text_area .access_list_area dd {
+  width: 70%;
+  padding: 2% 0;
+}
+body main .access_all_area .container .active {
+  opacity: 1;
+  top: 0;
+}
+body footer {
+  background-color: #333;
+}
+body footer p {
+  text-align: center;
+  padding: 20px;
+  font-size: 1vw;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,93 @@
+@media screen and (max-width: 480px) {
+  body header .container {
+    width: 90%;
+  }
+  body header .container .header_logo_area .header_link img {
+    width: 90px;
+    height: 70px;
+  }
+  body header .container .header_nav_area .header_list li {
+    padding: 0 10px;
+  }
+  body main .news_all_area .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body main .news_all_area .container .news_content_area {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body main .news_all_area .container .news_content_area .news_list dt {
+    font-size: 12px;
+  }
+  body main .news_all_area .container .news_content_area .news_list dd {
+    font-size: 12px;
+  }
+  body main .center_photo_area p {
+    font-size: 16px;
+  }
+  body main .menu_all_area .container .ttl_photo .ttl_02 {
+    font-size: 12px;
+  }
+  body main .menu_all_area .container .menu_box_area {
+    display: block;
+  }
+  body main .menu_all_area .container .menu_box_area .menu_box {
+    width: 100%;
+  }
+  body main .menu_all_area .container .menu_box_area .menu_box a img {
+    width: 100%;
+  }
+  body main .menu_all_area .menu_coffee_area {
+    display: block;
+  }
+  body main .menu_all_area .menu_coffee_area .coffee_photo_area {
+    width: 100%;
+  }
+  body main .menu_all_area .menu_coffee_area .coffee_photo_area img {
+    width: 100%;
+  }
+  body main .menu_all_area .menu_coffee_area .coffee_text_area {
+    width: 100%;
+  }
+  body main .point_all_area .container {
+    height: 650px;
+  }
+  body main .point_all_area .container .point_rest_area {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body main .point_all_area .container .point_rest_area .point_photo_area {
+    width: 100%;
+  }
+  body main .point_all_area .container .point_rest_area .point_photo_area img {
+    width: 100%;
+  }
+  body main .point_all_area .container .point_rest_area .point_text_area {
+    width: 100%;
+    position: static;
+    padding: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+  }
+  body main .access_all_area .container .access_container_area {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+  body main .access_all_area .container .access_container_area .access_map_area {
+    width: 100%;
+  }
+  body main .access_all_area .container .access_container_area .access_map_area iframe {
+    position: static;
+    width: 100%;
+  }
+  body main .access_all_area .container .access_container_area .access_text_area {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body main .access_all_area .container .access_container_area .access_text_area img {
+    width: 150px;
+    height: 100px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
